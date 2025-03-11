@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# `Zomato Clone(tomato)`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the project directory, A End to End clone of [zomato](https://www.zomato.com/) is made. User can order food online , search for popular restaurants, search for restaurants located nearby, can sort the items by popularity-high to low, delivery rating and can also filter item according to cuisines, cost and ratings. User have to `sign in` or `sign up` before checkout and make payments.
 
-## Available Scripts
+User can `sign in` or `sign up` using `google sign in` or through `email verification`.
 
-In the project directory, you can run:
+#### Project Screenshots
 
-### `yarn start`
+<table>
+   <tr align=center>
+     <td  colspan=3>Landing Page <img src="./screenshots/homepage.png" width=900 ></td>
+  </tr>
+  <tr>
+    <td>Restaurant Page <img src="./screenshots/RestroPage.png" height=260 ></td>
+    <td>Collection Page <img src="./screenshots/collectionPage.png" height=250 ></td>
+    <td>Profile Update Page<img src="./screenshots/explore_new1.png" height=250></td>
+  <tr>
+   <td>Profile Update Page<img src="./screenshots/checkoutPage.png" height=250></td>
+     <td>Profile Update Page<img src="./screenshots/paymentPage.png" height=250></td>
+   <td>Profile Update Page<img src="./screenshots/profilePage.png" height=250></td>
+  </tr>
+</table>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Built With
 
-### `yarn test`
+<table  align=center>
+  <tr>
+ <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png"  height=100   width=150 ></td>
+  <td align=center> <img src="https://cdn.iconscout.com/icon/free/png-512/mongodb-4-1175139.png"  height=100  width=150 ></td>
+     <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" height=100   ></td>
+    <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"  height=100   width=150 ></td>
+     <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_Google_2013_Official.svg"  height=100  ></td>
+  </tr>
+   <tr>
+    <td align=center>  <img src="https://raw.githubusercontent.com/mapbox/mapbox-gl-js-docs/publisher-production/docs/pages/assets/logo.png"   width=100  ></td>
+   <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png"  height=100    ></td>
+    <td align=center> <img src="https://cdn.iconscout.com/icon/free/png-256/razorpay-1649771-1399875.png"  height=100  width=150  ></td>
+     <td align=center> <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"  height=100  ></td>
+     <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/1024px-AmazonWebservices_Logo.svg.png"  height=100  ></td>
+  </tr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</table>
 
-### `yarn build`
+<hr/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Functionalities`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- User can order food online based on location
+- OAuth login through google
+- Google Maps Integrated
+- RazorPay Integrated for Payment
+- Similar properties suggestion feature
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Installation and Setup Instructions`
 
-### `yarn eject`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+Installation:
+`npm install`
+To Run Test Suite:
+`npm test`
+To Start Server:
+`npm start`
+To Visit App:
+`localhost:3000/`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## `Tools Used`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### FRONTEND
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- `React`
+  To learn React, check out the [React documentation](https://reactjs.org/).
+- `Redux`
+  To learn Redux, check out the [Redux documentation](https://redux.js.org/).
+- `Bootstrap`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### INTEGRATION
 
-## Learn More
+- `Google place autocomplete`
+- `Google maps api`
+- `Razor Pay`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### BACKEND
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npm install`
+- `nodemon server.js`
 
-### Code Splitting
+### `Deployement`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+deployement tool used: AWS(Amazon Web Services)
 
-### Analyzing the Bundle Size
+👤 **Akash Pathak**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Github: [@0prodigy](https://github.com/0prodigy)
+- Twitter: [@pathakprodigy](https://twitter.com/pathakprodigy)
+- Linkedin: [Akash Pathak](https://www.linkedin.com/in/akash-pathak-0796a7165)
+- Email: (pathakvikash9211@gmail.com)
 
-### Making a Progressive Web App
+👤 **Manish Kumar**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Github: [@Manish-kumar-DEV](https://github.com/Manish-kumar-DEV)
+- Linkedin: [manish-kumar-dev](https://www.linkedin.com/in/manish-kumar-dev/)
+- Email: (manish1771999@gmail.com)
 
-### Advanced Configuration
+👱‍♀️ **Gargi Das**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Github: [@Gargi-123](https://github.com/Gargi-123)
+- Twitter: [@GargiDas1079419](https://twitter.com/GargiDas1079419)
+- Linkedin: [Gargi Das](https://www.linkedin.com/in/gargi-das-57701b197/)
+- Email: (dasgargi100@gmail.com)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions, issues and feature requests are welcome!
 
-### `yarn build` fails to minify
+Feel free to check the [issues page](https://0prodigy.github.io/monk-arena/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- We take all the responsiblity for every single line of code. The desgin inspire from Zomato.
